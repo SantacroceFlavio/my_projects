@@ -36,7 +36,9 @@ padding: 26px 34px;
 }
 a:link {
     color: white;
+    text-decoration: none;
 }
+
 @media  screen and (max-width: 750px) {
     .sidebar, .expe {
         flex-basis: 100%;
