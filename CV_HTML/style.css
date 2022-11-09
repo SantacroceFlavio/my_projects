@@ -40,5 +40,5 @@ a:link {
 @media  screen and (max-width: 750px) {
     .sidebar, .expe {
         flex-basis: 100%;
-    }
-    
+}
+}
