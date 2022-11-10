@@ -26,9 +26,9 @@ li {
     transition: 0.7s;
 }
 .navbar-nav {
-    width: 80% !important;
+    width: 110% !important;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 header {
     text-align: center;
@@ -57,7 +57,7 @@ h2 {
     height: 240px;
     margin-top: 20px;
 }
-.info {
+.infos {
     border: 1px solid #b3aca7;
     display:flex;
     flex-direction: column;
@@ -80,4 +80,17 @@ h2 {
     border-radius: 3px;
     box-shadow: 0 0 4px #111;
 }
- 
+header .button {
+    margin-top: 45px;
+}
+header .button a {
+    padding: 20px 80px;
+    border: 1px solid #b3aca7;
+    width: 300px;
+}
+header .button:hover a {
+    background: #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
