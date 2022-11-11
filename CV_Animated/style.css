@@ -32,7 +32,7 @@ li {
 }
 header {
     text-align: center;
-    height: 100vh;
+    height: 300vh;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
 }
@@ -93,4 +93,14 @@ header .button:hover a {
     color: #e2dedb;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
+}
+/* ******************************************* LANGAGES ***************************************************** */
+
+#Languages {
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    height: 620px;
+    width: 47%;
+    max-width: 640px;
+    background: linear-gradient(131deg, #eded18 0%, rgba(255,255,0.85) 20%, rgba(254,254,63,0.51) 70, rgba(255,255,69,0.26%));
 }
