@@ -102,5 +102,6 @@ header .button:hover a {
     height: 620px;
     width: 47%;
     max-width: 640px;
-    background: linear-gradient(131deg, #eded18 0%, rgba(255,255,0.85) 20%, rgba(254,254,63,0.51) 70, rgba(255,255,69,0.26%));
+    background: linear-gradient(131deg,#f12711 0%, #f5af19 99%);
+    clip-path: polygon(0 5%, 100% 0,89% 100%,0 92%);
 }
