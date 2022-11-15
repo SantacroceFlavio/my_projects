@@ -32,7 +32,7 @@ li {
 }
 header {
     text-align: center;
-    height: 300vh;
+    height: 100vh;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ header .button:hover a {
 }
 /* ******************************************* LANGAGES ***************************************************** */
 
-#Languages {
+#Langages {
     padding: 80px 80px 80px 50px;
     margin: 20px 0 0 6%;
     height: 620px;
@@ -104,4 +104,54 @@ header .button:hover a {
     max-width: 640px;
     background: linear-gradient(131deg,#f12711 0%, #f5af19 99%);
     clip-path: polygon(0 5%, 100% 0,89% 100%,0 92%);
+}
+#Langages .bar {
+    padding: 4px 0 4px 0;
+    letter-spacing: 0,1em;
+}
+
+/* ******************************************** FORMATIONS **************************************************** */
+
+#formations {
+    position: relative;
+    top: -200px;
+    float: right;
+    margin-right: 5%;
+    padding: 80px 0 60px 50px;
+    width: 45%;
+    max-width: 660px;background: linear-gradient(19deg, rgba(0, 180, 219, 0.69) 0%,#0083b0 80%);
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 93%);
+}
+#autodidacte {
+    padding-top: 20px;
+}
+#occ {
+    padding: 50px 0 0 9%;
+}
+#fcc {
+    padding: 50px 0 0 18%;
+}
+#formations h4{
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-bottom: 10px;
+    color: #005978;
+    text-shadow: -1px -1px -1px #35B4D5;
+}
+.counter {
+    display: flex;
+    text-align: center;
+}
+.data {
+    border: 1px solid #35B4D5;
+    width: 170px;
+    margin: 0 4%;
+    box-shadow: 0 0 8px #1C9DC4;
+    padding: 5px 20px;
+}
+.counter-value {
+    font-size: 2em;
+}
+.data-span {
+    font-size: 1.8em;
 }
